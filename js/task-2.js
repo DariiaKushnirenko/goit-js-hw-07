@@ -31,8 +31,8 @@ const itemList = images.map(item => `
     <a class="gallery-link">
       <img
         class="gallery-image"
-        src="${item.preview}"
-        alt="${item.description}"
+        src="${item.url}"
+        alt="${item.alt}"
       />
     </a>
   </li>`).join(""); 
